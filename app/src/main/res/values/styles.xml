@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button Styles -->
+    <style name="Widget.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <style name="Widget.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+</resources>

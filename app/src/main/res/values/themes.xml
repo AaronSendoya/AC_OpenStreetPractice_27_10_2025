@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with Material 3 -->
+    <style name="Base.Theme.App_open_street" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_dark</item>
+        
+        <!-- Surface color -->
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        
+        <!-- Background -->
+        <item name="android:colorBackground">@color/color_background</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/color_primary_dark</item>
+        
+        <!-- Widget styles -->
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textColorSecondary">@color/color_text_secondary</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+    </style>
+
+    <style name="Theme.App_open_street" parent="Base.Theme.App_open_street" />
+</resources>
